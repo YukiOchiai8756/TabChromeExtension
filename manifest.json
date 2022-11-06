@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Tab alert",
+    "description": "Extension that alerts you when there is more than 10 tabs",
+    "version": "1.0.0",
+    "background": {
+        "service_worker":"background.js"
+    },
+    "permissions": [
+        "tabs",
+        "notifications"
+    ]
+  }
